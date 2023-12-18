@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color:  #709ca3;
+    
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    font-family:  'Oswald', cursive;
+}
+
+.nav-links-web {
+position: absolute;
+display: block;
+list-style: none;
+width: 300px;
+height: 22320px;
+left: 0px;
+top: 75px;
+transition: all 0.5s ease-out;
+padding: 13px;
+background: #9dbcc5;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    padding: 30;
+}
+
+.home,
+.search,
+.shoplist,
+.calendar,
+.newrecipe,
+.logout{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-size: 23px;
+    padding: 30px 20px;
+    margin: 10 10px;
+    cursor: pointer;
+}
+
+.home:hover{
+    color: #176629;
+}
+.search:hover{
+    color: #176629;
+}
+.newrecipe:hover{
+    color: #176629;
+}
+.shoplist:hover{
+    color: #176629;
+    
+}
+.calendar:hover{
+    color: #176629;
+}
+
+.icons{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    flex: 70%;
+}
+
+.login :hover {
+    color: white;
+}
+
+.profile{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color:rgb(37, 36, 36);
+    background-color:  #709ca3;
+    border: none;
+    outline: none;
+    top: 22px;
+    right: 45px;
+}
+.login {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color:rgb(37, 36, 36);
+    background-color:  #709ca3;
+    border: none;
+    outline: none;
+    top: 22px;
+    right: 10px;
+}
+
+.profile :hover{
+    color: white;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 940px){
+    .logo{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 55px;
+    }
+
+    .nav-links-web{
+        display: none;
+    }
+
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #eff8f4;
+        left: 0;
+        right: 80;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 50%;
+        height: 800px;
+    }
+
+    /*.login{
+        text-decoration: none;
+        color: rgb(37, 36, 36);
+        font-size: 20px;
+        padding: 1px 1px;
+        margin: 0 10px;
+        right: 45px;
+        cursor: pointer;
+    }*/
+    .home,
+    .search,
+    .shoplist,
+    .newrecipe,
+    .logout{
+        color: rgb(37, 36, 36);
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+        cursor: pointer;
+
+    }
+
+    
+
+
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 35px;
+        color:rgb(37, 36, 36);
+        background-color:  #91F0C3;
+        border: none;
+        outline: none;
+        top: 19px;
+        left: 15px;
+    }
+    nav.navbar{
+        margin-bottom: 0px;
+    }
+    
+      
+
+}
+
+nav.navbar {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

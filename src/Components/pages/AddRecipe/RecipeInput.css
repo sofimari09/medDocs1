@@ -1,0 +1,92 @@
+.recipe-form {
+  display: flex; 
+ flex-direction: column;
+ justify-content: center;
+ margin: 10px;
+ font-size:x-small;
+ border-radius: 4px;
+ padding-bottom:130px;
+ padding-top: 5px;
+ padding-right:5px;
+ padding-left:5px;
+}
+
+
+button.buttons.btn.btn-primary{
+background-color: #868a90;;
+border-color: transparent;
+font-size:small;
+}
+label {
+ display: flex;
+ font-size: medium;
+ color:#C7DDCC;;
+}
+.recipe-form-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-right:0px ;
+ padding-bottom: 0%;
+}
+
+.recipe-form input[type="text"] {
+ padding: 5px 8px;
+ box-sizing: border-box;
+ padding-right: 0px;
+}
+
+.recipe-form-line {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: flex-start;
+ padding-top: 15px;
+ 
+ 
+}
+
+.recipe-form-line input {
+ margin-left: 15px;
+ 
+}
+
+.buttons {
+ color: white;
+ border-color: transparent;
+ background-color:#868a90;;
+ padding: 0 10px 1px 10px;
+ margin: 8px 0;
+ align-self: flex-end;
+ font-size: 1.1em;
+ 
+}
+
+.buttons:hover {
+ cursor: pointer;
+ 
+}
+
+.close-button {
+ padding-top: 0px;
+ background-color: transparent;
+ background-repeat: no-repeat;
+ border: none;
+ cursor: pointer;
+ overflow: hidden;
+ font-size: 1.0em;
+ color: transparent;
+ align-self: flex-end;
+ 
+}
+
+.recipe-form-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.recipe-card-content button:hover {
+ cursor: pointer;
+}

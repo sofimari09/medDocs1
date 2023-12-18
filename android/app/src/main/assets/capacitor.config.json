@@ -1,0 +1,6 @@
+{
+	"appId": "com.recibook",
+	"appName": "recibook",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

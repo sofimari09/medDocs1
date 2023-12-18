@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+h1 {
+  margin-left: 1430px;
+  color: #2a4549 ;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#main{
+  height: 100%;
+  width: 100%;
+   background-size: 100% 100%;
+  background-repeat: no-repeat;
+background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+.Search{
+  height: 100%;
+  width: 100%;
+  left: 300px;
+  padding-top: 40px; 
+  top: 75px; 
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 0px;
+}
+
+input {
+  width: 77%;
+  margin-left: 330px;
+  margin-right:3%;
+  padding: 18px 10px;
+  border-radius: 4px;
+  border: 1px solid #758298;
+  box-shadow: 0px 0.5px #888888;
+  font-size: 14px;
+}
+
+#meals-container {
+  grid-auto-columns: auto;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  margin-top: 60px;
+ 
+}
+.single-meal {
+  box-shadow: 1px 0.5px #758298;
+  display: block;
+  text-align: center;
+  width: 77%;
+  margin-left: 330px;
+  margin-top: 10px;
+  background-color:  #C7DDCC;
+}
+.single-meal img{
+    width: 100%;  }
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 940px){
+      #main {
+      text-align: center;
+      margin: 0 ;
+      left: 300px;
+      right: 0px;
+      padding-top: 5px;
+      padding-right:5px;
+      padding-left:5px;
+      }
+      
+.Search{
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  padding-top: 40px; 
+  top: 75px; 
+  
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+input {
+  width: 94%;
+  
+  margin-left: 3%;
+  margin-right:3%;
+  padding: 18px 10px;
+  border-radius: 4px;
+  border: 1px solid #758298;
+  box-shadow: 0px 0.5px #888888;
+  font-size: 14px;
+}
+
+#meals-container {
+  grid-auto-columns: auto;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  margin-top: 60px;
+ 
+}
+.single-meal {
+  box-shadow: 1px 0.5px #758298;
+  /* margin: 10px; */
+  margin-left: 3%;
+  margin-right:3%;
+  display: block;
+  width: 94%;
+  background-color:  #C7DDCC;
+}
+.single-meal img{
+    width: 100%;  }
+    }

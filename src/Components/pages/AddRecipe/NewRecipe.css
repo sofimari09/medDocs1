@@ -1,0 +1,30 @@
+.newRecipe{
+    height: 710px;
+    width: 100%;
+    left: 300px;
+    padding-top: 40px; 
+    top: 75px; 
+    background-image: linear-gradient(to bottom right, rgba(86,90,168, 0.7), rgba(172,174,211,0.7));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+@media screen and (max-width: 940px){
+    .newRecipe{
+        height: 800px;
+        width: 100%;
+        padding-top: 20px;
+        background-image: linear-gradient(to bottom right, rgba(159, 163, 224, 0.7), rgba(172,174,211,0.7)); 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        left: 0px;
+        padding-right: 0;
+        padding-left: 0;
+        border-right: 0px;
+        border-bottom: 0;
+      
+    }
+}
